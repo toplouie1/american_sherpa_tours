@@ -1,6 +1,5 @@
 .home {
 	&__headerSection {
-		// background-color: white;
 		height: 200px;
 	}
 	&__header {
@@ -18,6 +17,7 @@
 		font-weight: 100;
 		padding: 10px;
 		color: white;
+		text-decoration: underline;
 	}
 	&__homePoster {
 		text-align: center;
