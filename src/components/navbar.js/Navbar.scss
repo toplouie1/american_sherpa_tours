@@ -1,0 +1,26 @@
+.navbar {
+	background-color: #9b3939;
+	display: flex;
+	justify-content: space-between;
+	height: 8em;
+	&__logo img {
+		cursor: pointer;
+		height: 8em;
+	}
+	&__rightItems {
+		background-color: #9b3939;
+	}
+	&__rightItemsList {
+		display: flex;
+		justify-content: space-evenly;
+		right: 20px;
+	}
+	&__rightItemsList li {
+		margin: 20px;
+		font-size: 2px;
+		list-style: none;
+		color: white;
+		cursor: pointer;
+		align-items: center;
+	}
+}
