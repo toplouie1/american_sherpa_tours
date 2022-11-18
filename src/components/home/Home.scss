@@ -1,0 +1,28 @@
+.home {
+	&__headerSection {
+		background-color: white;
+		height: 200px;
+	}
+	&__header {
+		text-align: center;
+		color: rgb(43, 43, 43);
+		font-size: 60px;
+		padding: 20px;
+		top: 0px;
+		background: -webkit-linear-gradient(rgb(58, 24, 16), rgb(21, 13, 13));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	&__secondHeader {
+		text-align: center;
+		color: rgb(43, 43, 43);
+		padding: 10px;
+	}
+	&__homePoster {
+		text-align: center;
+		margin: 30px;
+	}
+	&__ytVideo {
+		text-align: center;
+	}
+}
