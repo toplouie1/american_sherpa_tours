@@ -7,6 +7,7 @@ import Events from "./components/upcoming_Events/Events";
 import Past_Events from "./components/past_Events/Past_Events";
 import Family from "./components/family/Family";
 import Investment from "./components/investment/Investment";
+import Promotions from "./components/promotions/Promotions";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Route path="/past/events" element={<Past_Events />} />
 					<Route path="/family" element={<Family />} />
 					<Route path="/investment" element={<Investment />} />
+					<Route path="/promotions" element={<Promotions />} />
 				</Routes>
 			</Router>
 		</div>

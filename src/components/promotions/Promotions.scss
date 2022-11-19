@@ -1,0 +1,52 @@
+.promotions {
+	&__header {
+		text-align: center;
+		color: white;
+		margin: 30px;
+		padding: 30px;
+		font-size: 40px;
+		font-weight: 200;
+	}
+	&__bigImg {
+		text-align: center;
+		height: 700px;
+		padding-bottom: 60px;
+	}
+	&__largeHeader {
+		text-align: center;
+	}
+	&__mediumHeader {
+		text-align: center;
+	}
+	&__smallHeader {
+		text-align: center;
+	}
+	&__businessInformation {
+		background-color: white;
+		margin: 20px;
+		padding: 20px;
+	}
+	&__descriptions {
+		text-align: center;
+		color: white;
+		margin: 30px;
+	}
+	&__businessDescription {
+		padding: 20px;
+		text-align: center;
+		margin: 30px;
+	}
+	&__button {
+		text-align: center;
+		color: white;
+		margin: 30px;
+	}
+	&__imgRow {
+		// display: grid;
+		grid-template-rows: auto;
+	}
+	&__smallImg {
+		height: 300px;
+		padding: 10px;
+	}
+}
