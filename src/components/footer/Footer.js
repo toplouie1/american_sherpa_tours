@@ -11,12 +11,12 @@ const Footer = () => {
 				<ul>
 					<li>
 						<a target="blank" href="https://twitter.com/sherpa_tours">
-							Follow us on Twitter <FacebookIcon />
+							Twitter <FacebookIcon />
 						</a>
 					</li>
 					<li>
 						<a target="blank" href="https://www.facebook.com/SherpaTours/">
-							Follow us on Facebook <TwitterIcon />
+							Facebook <TwitterIcon />
 						</a>
 					</li>
 					<li>
@@ -24,7 +24,7 @@ const Footer = () => {
 							target="blank"
 							href="https://www.instagram.com/americansherpatours3/"
 						>
-							Follow us on Instagram <InstagramIcon />
+							Instagram <InstagramIcon />
 						</a>
 					</li>
 				</ul>

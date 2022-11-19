@@ -34,3 +34,18 @@
 		padding: 10px;
 	}
 }
+
+@media screen and (max-width: 440px) {
+	.pastEvents {
+		&__ytvideo {
+			width: 340px;
+		}
+		&__column {
+			grid-template-columns: 1fr;
+		}
+		&__imgItem {
+			height: 300px;
+			width: 300px;
+		}
+	}
+}

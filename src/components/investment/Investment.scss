@@ -21,3 +21,13 @@
 		padding: 30px;
 	}
 }
+
+@media screen and (max-width: 440px) {
+	.investment {
+		&__img {
+			width: 100%;
+			height: 400px;
+			opacity: 0.8;
+		}
+	}
+}

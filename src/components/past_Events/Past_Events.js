@@ -7,6 +7,7 @@ const Past_Events = () => {
 			<h2 className="pastEvents__secondheader">Wine Tasting Events</h2>
 			<div className="pastEvents__video">
 				<iframe
+					className="pastEvents__ytvideo"
 					width="900"
 					height="400"
 					src="https://www.youtube.com/embed/r19CBKywWO4"
@@ -42,7 +43,7 @@ const Past_Events = () => {
 
 			<div className="pastEvents__video">
 				<iframe
-					className="pastEvents__video"
+					className="pastEvents__ytvideo"
 					width="800"
 					height="400"
 					src="https://www.youtube.com/embed/n6aECe02V0g"

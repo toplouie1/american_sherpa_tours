@@ -17,6 +17,7 @@ const Home = () => {
 			</div>
 			<div className="home__ytVideo">
 				<iframe
+					className="home__video"
 					width="800"
 					height="400"
 					margin="30"

@@ -50,3 +50,22 @@
 		padding: 10px;
 	}
 }
+
+@media screen and (max-width: 440px) {
+	.promotions {
+		&__bigImg img {
+			text-align: center;
+			width: 330px;
+
+			height: 400px;
+		}
+		&__smallImg {
+			height: 300px;
+			width: 330px;
+		}
+
+		&__header {
+			font-size: 20px;
+		}
+	}
+}
