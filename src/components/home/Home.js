@@ -17,8 +17,9 @@ const Home = () => {
 			</div>
 			<div className="home__ytVideo">
 				<iframe
-					width="900"
-					height="600"
+					width="800"
+					height="400"
+					margin="30"
 					src="https://www.youtube.com/embed/ATuadlGdKFE"
 					title="American Sherpa Tours( What Do We Do?)"
 					frameborder="0"

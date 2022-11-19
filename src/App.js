@@ -23,7 +23,7 @@ function App() {
 					<Route path="/past/events" element={<Past_Events />} />
 					<Route path="/family" element={<Family />} />
 					<Route path="/investment" element={<Investment />} />
-					<Route path="/investment" element={<Investment />} />
+					<Route path="/promotions" element={<Promotions />} />
 					<Route path="/contact" element={<Contact />} />
 				</Routes>
 				<Footer />
