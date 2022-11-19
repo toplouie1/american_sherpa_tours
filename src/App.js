@@ -9,6 +9,7 @@ import Family from "./components/family/Family";
 import Investment from "./components/investment/Investment";
 import Promotions from "./components/promotions/Promotions";
 import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
 
 function App() {
 	return (
@@ -22,7 +23,8 @@ function App() {
 					<Route path="/past/events" element={<Past_Events />} />
 					<Route path="/family" element={<Family />} />
 					<Route path="/investment" element={<Investment />} />
-					<Route path="/promotions" element={<Promotions />} />
+					<Route path="/investment" element={<Investment />} />
+					<Route path="/contact" element={<Contact />} />
 				</Routes>
 				<Footer />
 			</Router>
