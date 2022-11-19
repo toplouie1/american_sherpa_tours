@@ -1,0 +1,35 @@
+.pastEvents {
+	&__header {
+		text-align: center;
+		color: white;
+		font-size: 40px;
+		font-weight: 200;
+	}
+	&__secondheader {
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		font-weight: 200;
+		margin: 20px;
+		padding: 20px;
+		text-decoration: underline;
+	}
+	&__video {
+		text-align: center;
+	}
+	&__imgList {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+	}
+	&__column {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	&__imgItem {
+		margin: auto;
+		height: 400px;
+		width: 500px;
+		padding: 10px;
+	}
+}

@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Events from "./components/upcoming_Events/Events";
+import Past_Events from "./components/past_Events/Past_Events";
 
 function App() {
 	return (
@@ -13,7 +14,8 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
-					<Route path="/upcoming_events" element={<Events />} />
+					<Route path="/upcoming/events" element={<Events />} />
+					<Route path="/past/events" element={<Past_Events />} />
 				</Routes>
 			</Router>
 		</div>
