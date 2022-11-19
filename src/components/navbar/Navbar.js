@@ -26,10 +26,10 @@ const Navbar = () => {
 					<Link to="/past/events">
 						<li>Past Events!</li>
 					</Link>
-					<Link to="/">
+					<Link to="/family">
 						<li>Family</li>
 					</Link>
-					<Link to="/">
+					<Link to="/investment">
 						<li>Investors</li>
 					</Link>
 					<Link to="/">
