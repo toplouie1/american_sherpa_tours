@@ -8,6 +8,7 @@ import Past_Events from "./components/past_Events/Past_Events";
 import Family from "./components/family/Family";
 import Investment from "./components/investment/Investment";
 import Promotions from "./components/promotions/Promotions";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 					<Route path="/investment" element={<Investment />} />
 					<Route path="/promotions" element={<Promotions />} />
 				</Routes>
+				<Footer />
 			</Router>
 		</div>
 	);

@@ -1,0 +1,43 @@
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 6px;
+	background-color: rgb(70, 70, 70);
+	width: 99%;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+
+	&__left ul li {
+		padding: 3px;
+		list-style: none;
+		cursor: pointer;
+	}
+	&__left ul li a {
+		color: inherit;
+		text-decoration: none;
+		&:hover {
+			opacity: 0.8;
+			color: blue;
+		}
+	}
+
+	&__middle ul li {
+		padding: 5px;
+		list-style: none;
+		cursor: pointer;
+	}
+	&__middle ul li a {
+		text-decoration: none;
+		color: inherit;
+	}
+	&__right ul li {
+		padding: 5px;
+		list-style: none;
+		cursor: pointer;
+	}
+	&__right ul li a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
