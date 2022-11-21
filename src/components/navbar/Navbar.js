@@ -82,7 +82,10 @@ const Navbar = () => {
 
 			<div
 				className="navbar__mobileMenu"
-				style={{ right: toggleMenu ? "0px" : "-181px" }}
+				style={{
+					right: toggleMenu ? "0px" : "-181px",
+					display: toggleMenu ? "block" : "none",
+				}}
 			>
 				<ul>
 					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/">
