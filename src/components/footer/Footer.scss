@@ -1,6 +1,6 @@
 .footer {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
+	justify-content: space-evenly;
 	padding: 6px;
 	background-color: rgb(70, 70, 70);
 	margin-top: auto;
@@ -44,6 +44,7 @@
 
 @media screen and (max-width: 440px) {
 	.footer {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
 		&__right ul li a {
 			font-size: 2px;
