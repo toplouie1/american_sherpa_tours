@@ -45,7 +45,7 @@ const Footer = () => {
 			<div className="footer__right">
 				<ul>
 					<li>
-						<Link to="/contactus">Contact Us</Link>
+						<Link to="/contact">Contact Us</Link>
 					</li>
 					<li>
 						<Link to="/investment">Become a Investor</Link>

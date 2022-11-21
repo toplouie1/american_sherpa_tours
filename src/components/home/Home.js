@@ -1,4 +1,6 @@
 import "./Home.scss";
+import { Button } from "@mui/material";
+
 const Home = () => {
 	return (
 		<div className="home">
@@ -14,6 +16,16 @@ const Home = () => {
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/63098932a4572181b3da27f9_Nepal-p-1080.jpg"
 					alt="home poster sherpa img"
 				/>
+			</div>
+			<div className="home__button">
+				<h2 className="home__secondHeader">Join the tour 2023!</h2>
+				<Button
+					href="https://docs.google.com/forms/d/e/1FAIpQLScEFXSp2nx2rZgv6tWaqZAl31uqvBc2CO4JuoREaTEqu_BoXQ/viewform"
+					target="blank"
+					variant="contained"
+				>
+					Form
+				</Button>
 			</div>
 			<div className="home__ytVideo">
 				<iframe

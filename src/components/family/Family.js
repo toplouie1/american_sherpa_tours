@@ -1,4 +1,6 @@
 import "./Family.scss";
+import { Button } from "@mui/material";
+
 const Family = () => {
 	return (
 		<div className="family'">
@@ -18,7 +20,13 @@ const Family = () => {
 				tours"
 			</p>
 			<div className="family__button">
-				<button>American Sherpa Families</button>
+				<Button
+					href="https://docs.google.com/forms/d/e/1FAIpQLSfwV9A644NxaiN7e1fDnRlrrL7UbQqTNPquiOOL0im7e2kBrQ/viewform"
+					target="blank"
+					variant="contained"
+				>
+					American Sherpa Families
+				</Button>
 			</div>
 			<h2 className="family__secondary">Sign-Up for Upcoming Events!</h2>
 			<p className="family__description">
@@ -27,7 +35,13 @@ const Family = () => {
 				events!
 			</p>
 			<div className="family__button">
-				<button>Sign-Up for Notification!</button>
+				<Button
+					href="https://docs.google.com/forms/d/e/1FAIpQLSezVJXHyYidZEhWbncN5DexfkzwIkoTo4xJiPESQGHrKPfFUA/viewform"
+					target="blank"
+					variant="contained"
+				>
+					Sign-Up for Notification!
+				</Button>
 			</div>
 			<h2 className="family__secondary">Volunteer Oppurtunity</h2>
 			<p className="family__description">
@@ -35,7 +49,13 @@ const Family = () => {
 				event then, fill up this form below!
 			</p>
 			<div className="family__button">
-				<button>Become a Volunter</button>
+				<Button
+					href="https://docs.google.com/forms/d/e/1FAIpQLSfphNMXrVFemvrh7zS8qLTFINeHJzJExZuLdePsP8u7xqzpfg/viewform"
+					target="blank"
+					variant="contained"
+				>
+					Become a Volunter
+				</Button>
 			</div>
 		</div>
 	);

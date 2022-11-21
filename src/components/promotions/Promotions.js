@@ -1,4 +1,6 @@
 import "./Promotions.scss";
+import { Button } from "@mui/material";
+
 const Promotions = () => {
 	return (
 		<div className="promotions">
@@ -54,7 +56,13 @@ const Promotions = () => {
 				below to reach out to us about business promotion.
 			</p>
 			<div className="promotions__button">
-				<button>Promote Business</button>
+				<Button
+					href="https://docs.google.com/forms/d/e/1FAIpQLScGJH92drblNctrgA8AVYr8i8fZJ3O_hLVLr_eq1wpck3rXpQ/viewform"
+					target="blank"
+					variant="contained"
+				>
+					Promote Business
+				</Button>
 			</div>
 		</div>
 	);

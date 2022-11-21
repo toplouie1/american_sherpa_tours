@@ -40,6 +40,9 @@ const Contact = () => {
 								Follow us on Instagram <InstagramIcon />
 							</a>
 						</li>
+						<li>
+							<a href="mailto:toplouie78@gmail.com">Contact us </a>
+						</li>
 					</ul>
 				</div>
 				<div className="contact__rightside">

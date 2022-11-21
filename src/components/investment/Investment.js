@@ -1,4 +1,6 @@
 import "./Investment.scss";
+import { Button } from "@mui/material";
+
 const Investment = () => {
 	return (
 		<div className="investment">
@@ -18,7 +20,13 @@ const Investment = () => {
 				and better Sherpa Community.
 			</p>
 			<div className="investment__button">
-				<button>Investment Interest</button>
+				<Button
+					href="https://docs.google.com/forms/d/e/1FAIpQLSf-cag0ME8DEufeicefrWVrvqVs1l4S8B683cgBKbsw2IYtzA/viewform"
+					target="blank"
+					variant="contained"
+				>
+					Investment Interest
+				</Button>
 			</div>
 		</div>
 	);
