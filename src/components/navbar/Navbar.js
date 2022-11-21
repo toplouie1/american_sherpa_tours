@@ -1,14 +1,25 @@
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Navbar = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
+	let menuRef = useRef();
+
+	useEffect(() => {
+		let handler = (e) => {
+			if (!menuRef.current.contains(e.target)) {
+				setToggleMenu(false);
+			}
+		};
+		document.addEventListener("mousedown", handler);
+		return () => [document.removeEventListener("mousedown", handler)];
+	}, [toggleMenu]);
 
 	return (
-		<div className="navbar">
+		<nav ref={menuRef} className="navbar">
 			<div className="navbar__logo">
 				<Link to="/">
 					<img
@@ -74,33 +85,36 @@ const Navbar = () => {
 				style={{ right: toggleMenu ? "0px" : "-181px" }}
 			>
 				<ul>
-					<Link to="/">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/">
 						<li>Home</li>
 					</Link>
-					<Link to="/about">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/about">
 						<li>About</li>
 					</Link>
-					<Link to="/upcoming/events">
+					<Link
+						onClick={() => setToggleMenu(!toggleMenu)}
+						to="/upcoming/events"
+					>
 						<li>Upcoming Events!</li>
 					</Link>
-					<Link to="/past/events">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/past/events">
 						<li>Past Events!</li>
 					</Link>
-					<Link to="/family">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/family">
 						<li>Family</li>
 					</Link>
-					<Link to="/investment">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/investment">
 						<li>Investors</li>
 					</Link>
-					<Link to="/promotions">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/promotions">
 						<li>Promotions</li>
 					</Link>
-					<Link to="/contact">
+					<Link onClick={() => setToggleMenu(!toggleMenu)} to="/contact">
 						<li>Contact Us</li>
 					</Link>
 				</ul>
 			</div>
-		</div>
+		</nav>
 	);
 };
 

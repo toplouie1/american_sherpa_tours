@@ -49,15 +49,16 @@
 		}
 		&__hamburger {
 			display: block;
+			position: absolute;
 			padding: 28.5px 5px;
+			right: 0;
 		}
 
 		&__mobileMenu {
 			display: block;
 			padding: 10px 15px;
-			width: 150px;
-			position: fixed;
-			top: 68px;
+			width: 140px;
+			top: 70px;
 			transition: right 0.65s ease;
 			background-color: #9b3939;
 			z-index: 2;
@@ -67,6 +68,19 @@
 				padding-bottom: 8px;
 				font-weight: 600;
 			}
+			position: absolute;
+		}
+		&__mobileMenu ul a {
+			text-decoration: none;
+		}
+		&__mobileMenu ul a li {
+			font-size: 16px;
+			color: black;
+			padding-bottom: 15px;
+			list-style: none;
+			text-decoration: none;
+			font-weight: 600;
+			margin: 5px;
 		}
 	}
 }
