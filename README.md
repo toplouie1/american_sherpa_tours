@@ -2,4 +2,4 @@
 
 web Application
 
-### https://americansherpatours.netlify.app/
+### https://sherpatours.netlify.app/
