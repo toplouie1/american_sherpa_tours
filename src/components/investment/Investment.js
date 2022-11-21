@@ -6,6 +6,7 @@ const Investment = () => {
 		<div className="investment">
 			<img
 				className="investment__img"
+				alt="family pic"
 				src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6331091dff3a74168a3863ae_image_50746113.JPG"
 			/>
 			<h1 className="investment__header">Investment Interest</h1>

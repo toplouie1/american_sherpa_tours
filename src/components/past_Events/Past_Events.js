@@ -22,18 +22,22 @@ const Past_Events = () => {
 			</h2>
 			<div className="pastEvents__column">
 				<img
+					alt="wine testing pic 1"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6331091dff3a74168a3863ae_image_50746113-p-1080.jpg"
 				/>
 				<img
+					alt="wine testing pic 2"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6331097742bc6ab9783d4cf7_image_50460161-p-1080.jpg"
 				/>
 				<img
+					alt="wine testing pic 3"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633109ff42bc6af8113d4fe0_image_50439937-p-1080.jpg"
 				/>
 				<img
+					alt="wine testing pic 4"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/63310b519942db0d3170a2a5_image_50436353-p-1080.jpg"
 				/>
@@ -58,18 +62,22 @@ const Past_Events = () => {
 
 			<div className="pastEvents__column">
 				<img
+					alt="hiking pic 1"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6361c2245c5851270b477e0e_edited-p-1080.jpg"
 				/>
 				<img
+					alt="hiking pic 2"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6361c2ad747a19e46caa6e2b_image_50460417-p-1080.jpg"
 				/>
 				<img
+					alt="hiking pic 3"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6361ca02fa5b873bc9d5d95e_edit3-p-1080.jpg"
 				/>
 				<img
+					alt="hiking pic 4"
 					className="pastEvents__imgItem"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/6361c47fcfadce1a03173602_edited2-p-1080.jpg"
 				/>

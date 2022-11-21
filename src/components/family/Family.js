@@ -6,6 +6,7 @@ const Family = () => {
 		<div className="family'">
 			<h1 className="family__header">American Sherpa - Families</h1>
 			<img
+				alt="family pic"
 				className="family__pic"
 				src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/63310b519942db0d3170a2a5_image_50436353.JPG"
 			/>

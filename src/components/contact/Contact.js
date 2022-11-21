@@ -11,6 +11,7 @@ const Contact = () => {
 				<h1>Let's Connect</h1>
 			</div>
 			<img
+				alt="bouddha pic"
 				src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62b74766e640093f2034f3a5_boudha.jpg"
 				className="contact__img"
 			/>

@@ -7,12 +7,16 @@ const Promotions = () => {
 			<h1 className="promotions__header">Sherpa Businesses that We Promote</h1>
 			<div className="promotions__bigImg">
 				<img
+					alt="real state poster"
 					className="promotions__bigImg"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b2ed82bb8e12129ae6059_Sonam%20Lama-p-800.jpg"
 				/>
 			</div>
 			<div className="promotions__bigImg">
-				<img src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b2df5225baf2fead7b2e7_Everest-Ad.jpeg" />
+				<img
+					alt="business poster"
+					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b2df5225baf2fead7b2e7_Everest-Ad.jpeg"
+				/>
 			</div>
 
 			<div className="promotions__businessInformation">
@@ -34,18 +38,22 @@ const Promotions = () => {
 
 			<div className="promotions__imgRow">
 				<img
+					alt="house pics 1"
 					className="promotions__smallImg"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b5da4c68a5b46714b8ff8_0895944e-f15a-49da-b451-256ba503c1c9.jpeg"
 				/>
 				<img
+					alt="house pics 2"
 					className="promotions__smallImg"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b5d9fed3a576fd7978b97_469a9991-5121-4546-9e4d-67927827b0ac.jpeg"
 				/>
 				<img
+					alt="house pics 3"
 					className="promotions__smallImg"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b5f44235b080af60f421c_f7876684-c1a4-474e-9dcd-8707771b9459.jpeg"
 				/>
 				<img
+					alt="house pics 4"
 					className="promotions__smallImg"
 					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/633b5d9a65dbb89972510538_a9ad1326-9879-4145-b17f-5e83074af1d9.jpeg"
 				/>

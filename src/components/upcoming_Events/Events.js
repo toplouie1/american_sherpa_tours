@@ -11,7 +11,10 @@ const Upcoming = () => {
 				join us!
 			</p>
 			<div className="events__img">
-				<img src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/630f6e376d8bf37fd089068e_Blue%20Yellow%20Modern%20Top%20Winter%20Vacation%20Destinations%20Your%20Story-p-500.jpg" />
+				<img
+					alt="event pic"
+					src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/630f6e376d8bf37fd089068e_Blue%20Yellow%20Modern%20Top%20Winter%20Vacation%20Destinations%20Your%20Story-p-500.jpg"
+				/>
 			</div>
 			<div className="events__button">
 				<Button

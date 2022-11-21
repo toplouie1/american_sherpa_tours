@@ -30,7 +30,10 @@ const About = () => {
 				<h2 className="organizer__header">Organizers</h2>
 				<div className="organizer__member">
 					<div>
-						<img src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62afefa6e7e7cf7f755d7d89_dawapic.jpg" />
+						<img
+							alt="dawa pic"
+							src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62afefa6e7e7cf7f755d7d89_dawapic.jpg"
+						/>
 					</div>
 					<div className="organizer__description">
 						<h3>Dawa Sherpa - President</h3>
@@ -44,7 +47,10 @@ const About = () => {
 				</div>
 				<div className="organizer__member">
 					<div>
-						<img src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62afe76ae7f763808967b61b_jamling-p-500.jpeg" />
+						<img
+							alt="jamling pic"
+							src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62afe76ae7f763808967b61b_jamling-p-500.jpeg"
+						/>
 					</div>
 					<div className="organizer__description">
 						<h3>Jamling Sherpa - Treasurer</h3>
@@ -61,7 +67,10 @@ const About = () => {
 				</div>
 				<div className="organizer__member">
 					<div>
-						<img src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62afe3aad54cdfdd0743f586_chongbadai-p-500.jpeg" />
+						<img
+							alt="chongba pic"
+							src="https://uploads-ssl.webflow.com/62ab5d7e9656d67b3955415b/62afe3aad54cdfdd0743f586_chongbadai-p-500.jpeg"
+						/>
 					</div>
 					<div className="organizer__description">
 						<h3>Chongba Lama Sherpa - Supporter</h3>
